@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enhancing Targeting Accuracy using ML
+title: Enhancing Targeting Accuracy using ML 
 image: /assets/img/blog/enhance-target-accuracy/classification-title-img.png
 description: >
   The goal for the project is to build a model that would accurately predict the customers that would sign up for our client's *delivery club* services. We use different classification algorithms to perform this task and understand what the main drivers are. 
@@ -8,9 +8,12 @@ sitemap: false
 hide_last_modified: true
 ---
 
+[![](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/ibiene-ds/enhancing-targeting-accuracy/blob/main/Enhancing%20Targeting%20Accuracy%20using%20ML.ipynb)
+
+[![](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/ibiene-ds/enhancing-targeting-accuracy/blob/main/Enhancing%20Targeting%20Accuracy%20using%20ML.ipynb)
+
 * toc
 {:toc}
-
 
 ### Some Context
 
@@ -24,7 +27,8 @@ We will use different classification algorithms to take on this task!
 <br>
 
 **More details on the project can be found in the Jupyter Notebook here: [Enhancing Targeting Accuracy](https://github.com/ibiene-ds/enhancing-targeting-accuracy)**
-<br>
+
+
 
 ### Results
 
