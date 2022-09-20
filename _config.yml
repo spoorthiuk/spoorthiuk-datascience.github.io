@@ -31,11 +31,12 @@ description:           >
 # A shorter description for the sidebar.
 tagline:               Engineer <br> 
                        Data Scientist <br>  
-                       Life-long learner <br>  
+                       Life-long learner <br> 
+                       <br>   
                        
 
 # A list of keywords for your blog
-keywords:              [portfolio, data science, machine learning]
+keywords:              [Portfolio, Data Science, Machine Learning, Tips]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -62,7 +63,7 @@ menu:
     url:               /about/
 
 # Add links to the footer.
-# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+# Typically you'll want to link to your cookie- or privacy policy (if applicable), etc..
 legal:
   - title:             LICENSE
     url:               /LICENSE/
@@ -72,10 +73,10 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2022. Ibiene Obuoforibo. All rights reserved. Powered by Netlify and Hydejack v9.1.6
-
+copyright:             © 2022. Ibiene Obuoforibo. All rights reserved.
 # Format of the permalinks
-permalink:             /blog/:categories/:year-:month-:day-:title/
+permalink:             /blog/:title/
+# /blog/:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
@@ -93,13 +94,15 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/sidebar-blueswirl.jpg
+accent_color:          rgb(40,105,166)
+#rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
 theme_color:           rgb(25,55,71)
+#theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -145,7 +148,7 @@ defaults:
   - scope:
       type:            posts
     values:
-      comments:        true
+      comments:        false
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -180,7 +183,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+# disqus:                Ibiene
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -199,10 +202,10 @@ hydejack:
   project_addons:      [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
-  no_push_state:       false
+  no_push_state:       true
 
   # Set to `true` if you want to disable the drawer
   no_drawer:           false
@@ -219,11 +222,11 @@ hydejack:
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!
-  no_inline_css:       false
+  no_inline_css:       true
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
-  no_page_style:       false
+  no_page_style:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -348,7 +351,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: gntnJRByasVpupuFL1WmemxcjGm7EYy1mARMfb9yJjY
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
@@ -357,8 +360,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-# twitter:
-#   username:            <username>
+twitter:
+   username:            IbieneO
 
 # Used for facebook open graph
 # facebook:
@@ -367,11 +370,12 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Ibiene Obuoforibo
+links:
+- https://twitter.com/IbieneO
+- https://github.com/ibiene-ds
+- https://www.linkedin.com/in/ibiene
 
 
 # Plugin Configs

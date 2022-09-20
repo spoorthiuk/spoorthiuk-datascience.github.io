@@ -1,17 +1,15 @@
 ---
 layout: welcome
-title: Hi there !
+title: Hi there!
 sitemap: true
 cover: true
 ---
 
-Thank you for buying the PRO version of Hydejack! 🎉
+Welcome to my website! 
 
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+My name is **Ibiene (ee-bee-ay-nay)**. I am an Oil & Gas Engineer that loves **data** and **problem solving**. This website is meant as a **technical journal** (if you will) of **projects** I have completed, **concepts** I feel inclined to wax eloquent about and **tips/tricks** I have picked up along the way. 
 
+Explore and I hope you enjoy your visit!
 
 ## Latest Posts
 
