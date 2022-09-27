@@ -3,14 +3,14 @@
 layout: grid
 
 # The title of the tag's page.
-title: Time Series
+title: Tips/Tricks
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: time-series
+slug: tips/tricks
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Posts about time series modeling
+  Posts relating to how to accomplish tasks, and tips/tricks
 
 # (Optional) You can disable grouping posts by date.
 #no_groups: true

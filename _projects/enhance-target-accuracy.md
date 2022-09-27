@@ -1,17 +1,17 @@
 ---
 layout: project
-title: Enhancing target accuracy with Machine Learning
-caption: Predict which customers will sign up for *Delivery Club*
+title: Enhancing Target Accuracy with Machine Learning
+caption: In this project, I build a **classification** model to **predict** which customers will sign up for a grocery store's **Delivery Club**. The final classification model chosen showed an **accuracy of > 95%** and **F1-score of 0.92.**
 description: >
   Use different classification models to predict what customers are likely to sign up for Delivery Club.
 date: 1 Sept 2022
 image: 
-  path: /assets/img/projects/enhance-target-pic.jpg
+  path: /assets/img/blog/enhance-target-accuracy/classification-title-img.png
 sitemap: false
 ---
 
-[![](https://img.shields.io/badge/Read_Full_Analysis-blue?)](/blog/enhance-target-accuracy/) &nbsp;
-[![](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/project-files/enhance-target-accuracy-ml.html) &nbsp;
+[![](https://img.shields.io/badge/Read_Full_Analysis-blue?)](/blog/enhance-target-accuracy/)
+[![](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/project-files/enhance-target-accuracy-ml.html)
 [![](https://img.shields.io/badge/GitHub-View_in_GitHub-blue?logo=GitHub)](https://github.com/ibiene-ds/enhancing-targeting-accuracy)
 
 In this project, I built a model that **predicts customers' likelihood to sign up for a grocery chain's delivery club initiative**. The end goal of the project is to **generate a list of customers (for the grocery chain) that are most likely to be receptive to mail advertisements the grocery chain will send to promote their *delivery club* initiative**. This will save the company some costs as marketing efforts would be targeted to where they would have the most impact. 

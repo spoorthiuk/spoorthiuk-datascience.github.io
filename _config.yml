@@ -53,11 +53,11 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Portfolio
+    url:               /projects/
   - title:             Blog
     url:               /blog/
-  - title:             Projects
-    url:               /projects/
-  - title:             Résumé*
+  - title:             Résumé
     url:               /resume/
   - title:             About Me
     url:               /about/
@@ -94,7 +94,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-blueswirl.jpg
+accent_image:          /assets/img/sidebar-skyblue.jpg
 accent_color:          rgb(40,105,166)
 #rgb(79,177,186)
 
@@ -106,18 +106,22 @@ theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+google_fonts:          false
+#google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                  Noto Sans, Helvetica, Arial, sans-serif
+font:                  false
+#font:                  Noto Sans, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          false
+#font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
+font_code:             false
+#font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
 
 defaults:
   # You can use this to provide a default accent color and background for
