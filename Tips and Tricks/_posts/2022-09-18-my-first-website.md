@@ -45,20 +45,23 @@ Check out the **demos** available on the sites  - and once you decide on a theme
 Or better still, do some sleuthing online (*google data science portfolios*) and find a portfolio you like, headover to their GitHub account and fork the repo! Chances are they have made a few tweaks to the base files which means you do not have to re-invent the wheel.
 Let's call it **website**. <br>
 
-I am assuming you have a GitHub account and understand the basics of git commands like cloning and forking. Click [here](https://towardsdatascience.com/essential-git-commands-every-programmer-should-know-fe96feb570ce) for a review of essential git commands.
+I am assuming you have a GitHub account and understand the basics of **git commands** like *cloning* and *forking*. Click [here](https://towardsdatascience.com/essential-git-commands-every-programmer-should-know-fe96feb570ce) for a review of essential git commands.
 
 ## Step 2: Clone the Repository
 Now you have the *forked* over repo in your Github (which means you have a copy of the repo in your GitHub account).
 *Clone* the repo (**website**) to your local computer. This copies the files to your local computer where you will edit the codes, and then later on, push to your GitHub account. <br>  
 
-To clone the repo, go to command line (*type CMD in Windows search bar*):
-- Change directory to Desktop or anywhere else you prefer your computer.  
+To clone the repo, go to command line (*type CMD in Windows search bar*) and complete the following steps:
+- Change directory to Desktop or anywhere else you prefer on your computer.  
   - `cd Desktop` or `cd YourFolderName`
 - Go to GitHub and navigate to your forked repo (**website**). Open up the repo and click the green **Code** button near the top of the page. Copy. <br>
 - Back to command line (*tip - Use Ctrl+V to paste the remote address you copied*)
   - `git clone https://github.com/ibiene-ds/website.git`
 
-[Add some pictures of the green CODE button and git]
+<br> 
+
+![alt text](/assets/img/blog/code-button-github.png)
+
 
 ## Step 3: Jekyll Folder Structure/Local Server
 Open up **Visual Studio Code** or any code editor you use (ex: Atom) and navigate to the folder (**website**) you cloned to your local computer. 
@@ -66,24 +69,24 @@ I typically use VS Code to edit and run code and Jupyter Notebooks but feel free
 
 **Things to note about Jekyll folder structure** <br>
 
-Jekyll themes are similar in how they are structured. See example of the [Hydejack](hydejack.com) theme file structure I used in the picture below:
+Jekyll themes are similar in how they are structured. See example of the [Hydejack](hydejack.com) theme file structure I used in the official GitHub [repo](https://github.com/hydecorp/hydejack).
 
-
-
-(add picture)
+Some important files to note:
 
 - *_config.yml*: Your website's general settings. Changing this file usually means you hit Ctrl+C to stop the local server and regenerate your website. No big deal. 
-- *_site folder: Generates the files for your website. Do not touch. 
+- *_site folder: Generates the files for your website. **Do not touch.** 
 - *assets folder*: Usually contains stuff like images and icons for your website. 
 
 I found this very informative [post](https://www.freecodecamp.org/news/hugo-vs-jekyll-battle-of-static-site-generator-themes/) that really goes into the details.
+
+Another good resource that helped me understand the Jekyll file structure is the [YouTube video](https://www.youtube.com/watch?v=wCOInE7-E0I), which is Part 1 of a series by Dataslice.
 
 **Next, open terminal (Ctrl + `)** in VS Code, and run this command: 
 
 `bundle exec jekyll serve`
 
 This opens up a **local hosting site**  where you can see changes as you make them to the various files. **Copy the server site address** generated to your web browser and a local version of your site will appear. Voila! Now when you make changes to any of the files in the folder (**website**), it would reflect on the website. <br>  
-Note that **if you make a change to the _config.yml file**, you would need to stop running the server **(Ctrl+C)** in VS Code terminal and re-run the command `bundle exec jekyll serve`.
+Note that **if you make a change to the _config.yml file**, you would need to **stop** running the server **(Ctrl+C)** in VS Code terminal and re-run the command `bundle exec jekyll serve`.
 
 
 ## Step 4: General website configuration
@@ -97,20 +100,19 @@ Then run `bundle exec jekyll serve` to restart the server to see your changes.
 There is usually a **_posts** folder in the hierarchy - you can edit that and start putting content in. The theme creators do an excellent job of including **example posts** - you can edit these and see the changes reflect on your website.  Also, note that Jekyll posts usually follow a convention for naming the posts.
 
 Useful links for writing in markdown (I found inline images quite finicky but finally got the hang of it):
-- Link 1
-- Link 2
-- Link 3
+- [Markdown Cheat Sheet](https://www.freecodecamp.org/news/markdown-cheat-sheet/)
+- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 
 If you are confused on how to structure content or what projects to add in your portfolio, take a look at some of these amazing portfolios and you'll soon get an idea. See links below:
 - Link 1
 - Link 2
 - Link 3
 
-_**Word of advice**: Every savant was once an amateur (in other words, do not despise the days of small beginnings). Do not shy away from putting what you consider "small" projects on: As you progress in your jounrey, you can add and subtract from your portfolio - the key is to keep doing projects. The more you do, the better you'll become and the more confident you'll feel - just keep moving._ 
+_**Word of advice**: Every savant was once an amateur (in other words, do not despise the days of small beginnings). Do not shy away from putting what you consider "small" projects on: as you progress in your journey, you can add and subtract from your portfolio - the key is to keep doing projects. The more you do, the better you'll become and the more confident you'll feel - just keep moving._ 
 
 ### Optional pretty stuff
 #### Shields
-So I spent the better part of an hour trying to figure out how to add cool buttons that would link to my GitHub account or a Jupyter Notebook. All of that research (googling) led me to the wonder of **shields** (Go to [shields.io](https://shields.io/) to learn more). I have to give a shout to Chris Tran here - reading his [blog](https://chriskhanhtran.github.io/portfolio/) really helped me out with this idea:
+So I spent the better part of an hour trying to figure out how to add cool buttons that would link to my GitHub account or a Jupyter Notebook. All of that research (googling) led me to the wonder of **shields** (go to [shields.io](https://shields.io/) to learn more). I have to give a shout to Chris Tran here - reading his [blog](https://chriskhanhtran.github.io/portfolio/) really helped me out with this idea:
 
 Basically, you can create shields using this format:
 
@@ -177,35 +179,44 @@ So far, no one can access your website because it is on your local computer - bu
 
 You can either use **GitHub** or **Netlify** to host your website for free. 
 
-### Github
+### GitHub
 If you have only one site on your account - it is pretty straightforward. 
 
 Simply go to your GitHub repo (**website**). Under *Settings*, change your repo name to *githubusername.github.io*. 
 For example, my GitHub user name is **ibiene-ds** so my repo name would be **ibiene-ds.github.io**. This repo name tells GitHub that this is a website (I am sure there are more technicalities to that but that is it in a nut shell). 
 
-Give it a minute or two, and you'll get a message like this:
+Give it a minute or two, and you'll get a message that says **your site is live!**
 
-[Add a picture]
-
-**Your site is live! Go over to that site and take a look.**
+![](/assets/img/blog/github-pages-live.png)
 
 If you have more than one site on your GitHub account, there are a couple more steps:
-- Name your repo, say website
-- Go to Settings and navigate to Github Pages
-- next steps....
+- Name your repo, let's call it **website.**
+- Go to **Settings** at the top of the repo page and navigate to **Pages** on the right side of the page.
+
+Under **Build and Deployment**:
+- **Source**: Deploy from a branch.
+- **Branch**: Choose 'master', '/root'. This means you are deploying from the master branch and the relevant files can be found in the *root* directory.
+- **Save**. After a minute or two, there will be a message at the top like this:
+
+<br>  
+
+![add pic of pages]()
+
+**Your site should now be live!**
+
 
 
 ### Netlify
 *Disclosure - I started hosting on GitHub and then it became finicky with a second site. I still don't completely understand it - some sites worked, and some didn't, so I moved to Netlify and wow - so easy!*
 
-Go to [Netlify](netlify.com) and create an account. Follow the steps to connect your Github account. I found this tutorial on their site really straightforward and useful. [Insert Link here]
+Go to [Netlify](netlify.com) and create an account. Follow the steps to connect your GitHub account. I found this [tutorial](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) on the Netlify site really straightforward and useful.
 
 Your site is now deployed at a subdomain (netlify.app or netlify.com)
 
 You can go ahead and change your site name (recommended), or use a custom domain (optional).
 
 ## Step 8: Index your site 
-Now you have a portfolio website showing your projects. But I quickly learned that deploying a website on Github or Netlify does not necessarily mean that search engines like Google or Bing will automatically find it (try it!). So I got googling again and found these resources to help with that issue.
+Now you have a portfolio website showing your projects. But I quickly learned that deploying a website on GitHub or Netlify does not necessarily mean that search engines like Google or Bing will automatically find it (try it!). So I got googling again and found these resources to help with that issue.
 
 Link 1
 Link 2 
