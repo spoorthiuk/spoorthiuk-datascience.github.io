@@ -7,7 +7,7 @@ description: >
 date: 1 Jul 2021
 image: 
   path: /assets/img/projects/palindrome_post.jpg
-sitemap: false
+sitemap: true
 ---
 
 [![](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/ibiene-ds/palindrome-function/blob/main/Palindrome%20Function.ipynb) &nbsp; [![](https://img.shields.io/badge/Streamlit-Open_Web_App-blue?logo=Streamlit)](https://ibiene-ds-finding-primes-primes-app-8a5ezt.streamlitapp.com/)

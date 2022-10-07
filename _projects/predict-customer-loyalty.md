@@ -7,7 +7,7 @@ description: >
 date: 6 July 2022
 image: 
   path: /assets/img/blog/predict-cust-loyalty/regression-title-img.png
-sitemap: false
+sitemap: true
 ---
 
 [![](https://img.shields.io/badge/Read_Full_Analysis-blue?)](/blog/predicting-customer-loyalty/)

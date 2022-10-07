@@ -6,7 +6,7 @@ Photo by Czapp Árpád from Pexels: https://www.pexels.com/photo/a-man-looking-w
 description: >
   In this project we use Association Rule Learning to analyse the transactional relationships & dependencies between products in the alcohol section of a grocery store.
 tags: [Association Rule Learning, Python]
-sitemap: false
+sitemap: true
 hide_last_modified: true
 ---
 

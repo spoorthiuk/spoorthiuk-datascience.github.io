@@ -5,7 +5,7 @@ image: /assets/img/blog/customer-seg/clustering-title-img.png
 description: >
   In this project, we use k-means clustering to segment up our client's customer base in order to increase business understanding, and to enhance the relevancy of targeted messaging & customer communications.
 tags: [KNN, Python, Clustering]
-sitemap: false
+sitemap: true
 hide_last_modified: true
 ---
 

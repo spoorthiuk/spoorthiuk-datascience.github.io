@@ -5,7 +5,7 @@ image: /assets/img/blog/my-first-blog-cover.jpg
 description: >
   How I built my Data Science Portfolio (from start to ongoing...)
 tags: [Portfolio, Data Science, Jekyll, Netlify, Github]
-sitemap: false
+sitemap: true
 hide_last_modified: true
 ---
 

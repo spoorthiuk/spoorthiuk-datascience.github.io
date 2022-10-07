@@ -5,7 +5,7 @@ caption: This is one of my first and simplest projects programming in **Python**
 date: 1 Jun 2021
 image: 
   path: /assets/img/projects/primes_image.jpeg
-sitemap: false
+sitemap: true
 ---
 
 [![](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/ibiene-ds/finding-primes/blob/main/Finding%20Primes.ipynb)           [![](https://img.shields.io/badge/Streamlit-Open_Web_App-blue?logo=Streamlit)](https://ibiene-ds-finding-primes-primes-app-8a5ezt.streamlitapp.com/)

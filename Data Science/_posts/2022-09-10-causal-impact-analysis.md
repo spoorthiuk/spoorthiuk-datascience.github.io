@@ -5,7 +5,7 @@ image: /assets/img/blog/causal-impact-title-img.png
 description: >
   This blog goes into a detailed review of *Causal Impact Analysis* and how it is used to quanitfy sales uplift for a grocery chain.
 tags: [Time Series, Python, Machine Learning]
-sitemap: false
+sitemap: true
 hide_last_modified: true
 ---
 

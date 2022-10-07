@@ -7,7 +7,7 @@ description: >
 date: 1 Sept 2022
 image: 
   path: /assets/img/blog/enhance-target-accuracy/classification-title-img.png
-sitemap: false
+sitemap: true
 ---
 
 [![](https://img.shields.io/badge/Read_Full_Analysis-blue?)](/blog/enhance-target-accuracy/)

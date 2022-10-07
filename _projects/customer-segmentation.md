@@ -7,7 +7,7 @@ description: >
 date: 9 July 2022
 image: 
   path: /assets/img/blog/customer-seg/clustering-title-img.png
-sitemap: false
+sitemap: true
 ---
 
 [![](https://img.shields.io/badge/Read_Full_Analysis-blue?)](/blog/customer-segmentation/)
