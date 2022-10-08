@@ -216,17 +216,36 @@ Your site is now deployed at a subdomain (netlify.app or netlify.com)
 You can go ahead and change your site name (recommended), or use a custom domain (optional).
 
 ## Step 8: Index your site 
-Now you have a portfolio website showing your projects. But I quickly learned that deploying a website on GitHub or Netlify does not necessarily mean that search engines like Google or Bing will automatically find it (try it!). So I got googling again and found these resources to help with that issue.
-
-Link 1
-Link 2 
-Link 3 
-
-I will condense the steps I took here:
+Now you have a portfolio website showing your projects. But I quickly learned that deploying a website on GitHub or Netlify does not necessarily mean that search engines like Google or Bing will automatically find it (try it!). 
 
 
+1. Go to **[Google Search Console](https://search.google.com/search-console/about)** and click **Start Now**
+2. Enter your property name. For example, for this website I entered: https://www.ibienenwoko.com
+3. Now on to **Site Verification**. Google gives you a number of options for site verification - the most straightforward to me was the first option - **HTML File Upload**. Basically, you **download the html file**, and **upload to the root directory of your website**. On my PC, I have a folder called **website** where I pasted the *html* file, and pushed to my GitHub repository. *See [video](https://support.google.com/webmasters/answer/9008080?hl=en#html_verification) for more information on site verification*. <br> Click **Verify** and you will receive a message almost immediately confirming that you have been verified. 
+4. **Create/Check Sitemap**. For me, this was a tricky one since I had never even heard about *sitemaps* or *SEO* before this. So, I'll save you some googling. First of all, the sitemap for this site can be accessed here: **[www.ibienenwoko.com/sitemap.xml](www.ibienenwoko.com/sitemap.xml)**. <br> <br> Simply add **/sitemap.xml** to the end of your website (either your real site or local server) and you can access your sitemap as well. Local server exmaple: *http://127.0.0.1:4000/sitemap.xml* <br>
+**Important Checks**:
+  - Go to your *_config.yml* file and make sure your **url** and **base url** are **not** commented out. If they are commented out, your sitemap will have '<loc>' instead of a proper url. Suffice it to say, Google Search Console will flag errors when you submit that sitemap. See example of what your config.yml file should look like.
+  ![](/assets/img/blog/config.png) <br>
+  - Check that the **Jekyll plugin** to generate sitemaps is active. See highlighted text below. I didn't have to do this part, the theme creator had that already. ![](/assets/img/blog/jekyll-plugins.png)
+  - Check that in the front matter of all your posts you want indexed, you have **sitemap: true**. For some reason, I had set mine as false back when I had no clue what a sitemap was. ![](/assets/img/blog/sitemap-true.png) <br> <br>
 
+If you have all these checked off, you have a sitemap. Check this by going to your *www.websitename.com/sitemap.xml.* 
 
+5. **Submit Sitemap**. Back to Google Search Console. Go to *Sitemaps* on the left side and add a new sitemap. Your website or property name should be there already - just add `sitemap.xml` and hit **Submit**. <br>
+
+![](/assets/img/blog/sitemap.png)
+
+If you completed the checks above, there should be no errors. 
+
+![](/assets/img/blog/sitemap-success.png)
+
+Now, you wait for 2 - 5 days for Google to index your site and voila! You are on Google.
+
+These are links to some resources I found really helpful. 
+
+- [Get your Jekyll pages on Google](https://victor2code.github.io/blog/2019/07/04/jekyll-github-pages-appear-on-Google.html)
+- [Google Analytics on Jekyll](https://desiredpersona.com/google-analytics-jekyll/)
+- [How to create a sitemap on Jekyll](https://www.youtube.com/watch?v=kiBtQClK-XQ)
 
 And you are done! You have a portfolio website - now just keep doing projects and adding to it!
 
