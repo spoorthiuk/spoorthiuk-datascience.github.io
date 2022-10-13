@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding Alcohol Product Relationships Using Association Rule Learning
-image: /assets/img/blog/assoc-rule/assoc-rule-cover.jpg
+image: /assets/img/blog/assoc-rule/assoc-rule-cover.jpeg
 Photo by Czapp Árpád from Pexels: https://www.pexels.com/photo/a-man-looking-wines-7350153/
 description: >
   In this project we use Association Rule Learning to analyse the transactional relationships & dependencies between products in the alcohol section of a grocery store.

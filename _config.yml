@@ -94,7 +94,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-skyblue.jpg
+accent_image:          /assets/img/sidebar-skyblue.jpeg
 accent_color:          rgb(40,105,166)
 #rgb(79,177,186)
 
