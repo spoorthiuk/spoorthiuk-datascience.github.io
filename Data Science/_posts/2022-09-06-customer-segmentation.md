@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The "You Are What You Eat" Customer Segmentation
-image: /assets/img/blog/customer-seg/clustering-title-img.png {:width="800" height="600"}
+image: /assets/img/blog/customer-seg/clustering-title-img.png
 description: >
   In this project, we use k-means clustering to segment up our client's customer base in order to increase business understanding, and to enhance the relevancy of targeted messaging & customer communications.
 tags: [KNN, Python, Clustering]

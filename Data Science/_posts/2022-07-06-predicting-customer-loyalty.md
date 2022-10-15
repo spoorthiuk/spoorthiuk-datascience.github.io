@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Predicting Customer Loyalty Using ML
-image: /assets/img/blog/predict-cust-loyalty/regression-title-img.png {:width="800" height="600"}
+image: /assets/img/blog/predict-cust-loyalty/regression-title-img.png
 description: >
   The goal for the project is to build a model that would accurately predict the customers that would sign up for our client's *delivery club* services. We use different classification algorithms to perform this task and understand what the main drivers are. 
 tags: [Customer Loyalty, Machine Learning, Regression, Python]
