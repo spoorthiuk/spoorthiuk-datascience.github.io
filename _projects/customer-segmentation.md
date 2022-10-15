@@ -3,7 +3,7 @@ layout: project
 title: The "You are What You Eat" Customer Segmentation
 caption: Using **K Nearest Neighbors** (*unsupervised learning*) to cluster customers to **understand the shopping habits of customers**,  I found **three clusters** that correspond to dietary habits.
 description: >
-  Use KNN to segment customer database in order to increase business understanding.
+  Use KNN to segment customer database in order to increase business understandibng.
 date: 9 July 2022
 image: 
   path: /assets/img/blog/customer-seg/clustering-title-img.png

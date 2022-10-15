@@ -7,9 +7,9 @@ cover: true
 
 Welcome to my website! 
 
-My name is **Ibiene _(ee-bee-ay-nay)_**. I am an Oil & Gas Engineer that loves **data** and **problem solving**. This website is meant as a **technical journal** (if you will) of **projects** I have completed, **concepts** I feel inclined to wax eloquent about and **tips/tricks** I have picked up along the way. 
+My name is **Ibiene** _(ee-bee-ay-nay)_. I am an Oil & Gas Engineer that loves data and problem-solving. This website is a technical journal (if you will) of *projects* I have completed, *technical concepts* I feel inclined to wax eloquent about,  and *tips/tricks* I have picked up along my journey. 
 
-Explore and I hope you enjoy your visit!
+I hope you enjoy your visit!
 
 
 ## Latest Projects
