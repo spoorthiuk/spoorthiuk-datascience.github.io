@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building my Data Science Portfolio using Jekyll and Netlify
-image: /assets/img/blog/my-first-blog-cover.jpeg 
+image: /assets/img/blog/my-first-blog-cover.jpeg {:width="800" height="600"}
 description: >
   How I built my Data Science Portfolio (from start to ongoing...)
 tags: [Portfolio, Data Science, Jekyll, Netlify, Github]

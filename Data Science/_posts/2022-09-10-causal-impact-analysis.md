@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quantifying Sales Uplift With Causal Impact Analysis
-image: /assets/img/blog/causal-impact-title-img.png
+image: /assets/img/blog/causal-impact-title-img.png {:width="800" height="600"}
 description: >
   This blog goes into a detailed review of *Causal Impact Analysis* and how it is used to quanitfy sales uplift for a grocery chain.
 tags: [Time Series, Python, Machine Learning]
