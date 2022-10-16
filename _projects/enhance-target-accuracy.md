@@ -11,7 +11,7 @@ sitemap: true
 ---
 
 [![](https://img.shields.io/badge/Read_Full_Analysis-blue?)](/blog/enhance-target-accuracy/)
-[![](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/project-files/enhance-target-accuracy-ml.html)
+[![](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/ibiene-ds/enhancing-targeting-accuracy/blob/main/Enhancing%20Targeting%20Accuracy%20using%20ML.ipynb)
 [![](https://img.shields.io/badge/GitHub-View_in_GitHub-blue?logo=GitHub)](https://github.com/ibiene-ds/enhancing-targeting-accuracy)
 
 In this project, I built a model that **predicts customers' likelihood to sign up for a grocery chain's delivery club initiative**. The end goal of the project is to **generate a list of customers (for the grocery chain) that are most likely to be receptive to mail advertisements the grocery chain will send to promote their *delivery club* initiative**. This will save the company some costs as marketing efforts would be targeted to where they would have the most impact. 
