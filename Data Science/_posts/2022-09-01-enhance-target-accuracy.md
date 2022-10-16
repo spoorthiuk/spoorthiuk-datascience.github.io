@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Enhancing Targeting Accuracy using ML 
-image: /assets/img/blog/enhance-target-accuracy/classification-title-img.png
+image: 
+  path: /assets/img/blog/enhance-target-accuracy/classification-title-img.png
+  width: 800
+  height: 600
 description: >
   The goal for the project is to build a model that would accurately predict the customers that would sign up for our client's *delivery club* services. We use different classification algorithms to perform this task and understand what the main drivers are. 
 tags: [Classification, Python, Machine Learning]
