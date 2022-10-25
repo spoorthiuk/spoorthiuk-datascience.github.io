@@ -2,102 +2,152 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Ibiene Obuoforibo"
+  label: "Reservoir/Development Engineer"
+  email: "ib.obuoforibo@outlook.com"
+  phone: "(403) 463-6054"
+  website: "https://ibienenwoko.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
-  location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    Ibiene is an experienced oil and gas professional (9 years) with a solid technical background in reservoir and development engineering. 
+    Proven expertise in numerical simulation, well test analyses, reservoir surveillance, economic modeling, and field development planning. 
+    Meticulous, analytical individual and a life-long learner who enjoys keeping current on techniques and tools. 
+    Enthusiastic about data science and machine learning, with a keen interest in extracting insights from data to 
+    understand and improve well productivity. 
+    
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    - network: "GitHub"
+      username: "ibiene-ds"
+      url: "https://github.com/ibiene-ds"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Ibiene Obuoforibo"
+      url: "www.linkedin.com/in/ibiene"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "PETRONAS"
+    position: "Petroleum Engineer"
+    website: "https://petronascanada.com"
+    startDate: "2022-10-03"
     endDate: ""
-    summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+
+  - company: "Sinopec Canada"
+    position: "Senior Reservoir Engineer"
+    website: "https://sinopeccanada.com"
+    startDate: "2020-06-09"
+    endDate: "2022-08-30"
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+      - "Performed rate transient analysis in unconventional plays such as the Montney and Rock Creek to extract 
+      reservoir characteristics, investigate well interference and reliably forecast well performance."
+      - "Built parametric models to determine optimum well spacing and optimize completion design in the Montney, 
+      Duvernay and Rock Creek formations."
+      - "Created and optimized field development plans for several key conventional and unconventional plays 
+      (Ellerslie, Rock Creek, Montney and Duvernay) yielding over two hundred locations which 
+      have either been budgeted or added to the company’s long-term plan."
+      - "Ran various sensitivities on short-term and long-term field development plans for optimization purposes."
+      - "Provided technical input and recommendations in creating and maintaining the company’s capital budgets 
+      and long-term development plans."
+      - "Work closely with the Reserves team and third-party evaluators to optimize undeveloped bookings 
+      across different company assets and formations."
+      - "Represented the company at various subsurface meetings with the Montney Producers’ Group, presenting 
+      innovative workflows to peers."
+      - "Built over two hundred type curves across the Montney, Duvernay, Mannville, Cardium and Rock Creek formations, 
+      evaluated type well economics and project economics for development plans and deals."
+      - "Developed new and efficient workflows for evaluation and type curve generation that has eliminated ~95% of data preparation 
+      steps and vastly improved project timelines."
+      - "Created a one-stop database in Tableau to monitor competitor activity in plays such as the Montney and Duvernay, 
+      resulting in recommending modern and effective completion designs."
+      - "Prepared and presented seven divestment packages to executives - generated type curves and evaluated economics 
+      for upside locations - potentially reducing the company’s asset retirement obligations (ARO) by over 14 million dollars."
+      - "Managed over $100,000 in engineering software, championing new software and databases that improved engineering workflows."
+      - "Stewarded company’s non-operational budget of 15 million dollars by performing subsurface and economic evaluations on
+       Independent Operation Notices and recommending projects that added significantly to the company’s free cash flow."
+      - "Mentored other engineers both locally and internationally (Beijing) in general subsurface evaluation techniques."
+    
+  - company: "Sinopec Canada"
+    position: "Reservoir Engineer-in-Training"
+    website: "https://sinopeccanada.com"
+    startDate: "2014-06-09"
+    endDate: "2020-04-01"
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Created a workplan for evaluating all company assets for all company rights, ranked assets for development or 
+      divestiture, and presented the workplan and results to upper management."
+      - "Generated condensate-gas ratios, H2S maps and calculated gas and condensate in place volumes for 
+      company’s Montney asset."
+      - "Created a sour gas injection model in CMG IMEX to improve economics of sour oil restart and facilitate sour gas 
+      egress of company’s high value oil plays; the model also predicted required surface pressures to inform compressor 
+      design."
+      - "Built an economics sensitivities dashboard in Tableau that calculates the impact of changes in capital and/or 
+      volumes in real-time when fed a base set of economic runs."
+      - "Optimized company’s conventional waterflood assets in Alberta, presented to third party evaluators, 
+      resulting in an increase in reserves booking by ~700 thousand barrels."
+  
+  - company: "Sinopec Canada"
+    position: "Exploitation Engineering Intern"
+    website: "https://sinopeccanada.com"
+    startDate: "2012-09-01"
+    endDate: "2013-08-30"
+    highlights:
+      - "Performed decline curve analysis on 100+ wells in Pembina and Carrot Creek and analyzed the effects of various 
+      completions metrics on productivity."
+      - "Updated asset team on key industry activity including well licenses and pipeline approvals; monitored load fluid 
+      recovery of company’s new drills."
+
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "University of Regina"
+    area: "Petroleum Systems Engineering"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
+    startDate: "2009-05-01"
+    endDate: "2014-05-01"
     gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+
 skills:
-  - name: "Web Development"
-    level: "Master"
+  - name: "Reservoir Modeling"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - "CMG IMEX"
+      - "WINPROP"
+      - "Harmony"
+      - "CMG CMOST"
+  - name: "Well Test Analysis"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "RTA"
+      - "PTA"
+      - "DFIT"
+      - "Interference Testing"
+      - "SWPM"
+  - name: "Development Planning/Economic Modeling"
+    keywords:
+      - "Mosaic"
+      - "VALNAV"
+      - "Enersight"
+  - name: "Reserves"
+    keywords:
+      - "Decline Curve Analysis"
+      - "Harmony"
+      - "Material Balance"
+  - name: "Reservoir Management"
+    keywords:
+      - "Water flood"
+  - name: "Type Curve Generation"
+    keywords:
+      - "Competitor Intelligence"
+      - "Completion Design"
+  - name: "Data Science/Machine Learning"
+    keywords:
+      - "Python"
+      - "SQL"
+      - "Pandas"
+      - "sklearn"
+      - "Tensorflow"
+  - name: 'Data Analytics/Visualization'
+    keywords:
+      - "Tableau"
+      - "Spotfire"
+      - "Power BI"
+
 languages:
   - language: "English"
     fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+    
+memberships:
+  - name: "Professional memberships"
+    keywords: 
+      - "Association of Professional Engineers and Geoscientists of Alberta (APEGA)"
+      - "Society of Petroleum Engineers (SPE)"
