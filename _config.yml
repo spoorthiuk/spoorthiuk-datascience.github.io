@@ -63,16 +63,16 @@ menu:
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if applicable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+# legal:
+  # - title:             LICENSE
+   # url:               /LICENSE/
+  # - title:             NOTICE
+  #  url:               /NOTICE/
+  #- title:             CHANGELOG
+   # url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2022. Ibiene Obuoforibo. All rights reserved.
+copyright:             © 2022. Ibiene Obuoforibo.
 # Format of the permalinks
 permalink:             /blog/:title/
 # /blog/:categories/:year-:month-:day-:title/
@@ -266,7 +266,7 @@ hydejack:
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
-  advertise:           false
+  advertise:           true
 
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
@@ -354,7 +354,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: G-SVR4DFNBKV
+google_site_verification: G-SVR4DFNBKV
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>

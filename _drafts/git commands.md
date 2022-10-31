@@ -9,15 +9,21 @@ sitemap: true
 hide_last_modified: true
 ---
 
-GitHub is a version control tool used by programmers worldwide; other variations of this service are: Gitbash etc. This is very useful in showcasing your work (you can save your scripts and your Jupyter notebooks here), you can also host your website here. 
+* toc
+{:toc}
 
-This is by no means an exhaustive list of commands but what I use regularly. Read the Git documenation for more. The steps below used to live on a text file on my local computer which I consulted from time to time. Hope it serves you well!
+Let's start with the technicalities: Git is a version control system used for tracking modifications in source code in software development while GitHub is a collaboration and version control platform for storing and managing code. More on the differences [here](https://www.simplilearn.com/tutorials/git-tutorial/git-vs-github). GitHub is a version control tool used by programmers worldwide; other variations of this service are GitLab, Bitbucket etc. This is very useful in showcasing your work (you can save your scripts and your Jupyter notebooks here), you can also host your website here. 
 
-Pushing from a Local Repository to GitHub
+This is by no means an exhaustive list of commands but what I use regularly. The steps below used to live on a text file on my local computer which I consulted from time to time. Hope it serves you well!
 
-1. On your local desktop or folder of interest, create a folder you want to clone into (eg Palindrome function folder) 
+## Downloading Git for Windows
+To download Git, go to [https://git-scm.com/download/win](https://git-scm.com/download/win) and follow the prompts.
+
+## Pushing from a Local Repository to GitHub
+
+1. On your local desktop or folder of interest, create a folder you want to clone into (ex: Palindrome function folder) 
 and copy the address of the folder
-2. Open up command line and navigate to the folder using:
+2. Open up Command Line and navigate to the folder using:
  `cd C:\Users\Ibiene\OneDrive\DataScience_MachineLearning\my new folder`
 3. Next, initialize git:
   `git init`
@@ -41,7 +47,8 @@ If an error comes up: remote origin already exists, type this:
 10. To check status:
    `git status`
 
-Pushing from a remote repo to local folder
+## Pushing from a remote repo to local folder
+
 OR start from here (cloning repo on github to local and making changes)
 navigate to ur working folder using cd ...
 1. Create new repo on GitHub, name the repo and add a README file
