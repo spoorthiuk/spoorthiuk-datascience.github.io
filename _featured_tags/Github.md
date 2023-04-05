@@ -3,5 +3,5 @@ layout: tag-list
 title: Github
 menu: false
 description: >
-  Posts about Github
+  Posts about GitHub
 ---

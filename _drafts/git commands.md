@@ -12,12 +12,14 @@ hide_last_modified: true
 * toc
 {:toc}
 
-Let's start with the technicalities: Git is a version control system used for tracking modifications in source code in software development while GitHub is a collaboration and version control platform for storing and managing code. More on the differences [here](https://www.simplilearn.com/tutorials/git-tutorial/git-vs-github). GitHub is a version control tool used by programmers worldwide; other variations of this service are GitLab, Bitbucket etc. This is very useful in showcasing your work (you can save your scripts and your Jupyter notebooks here), you can also host your website here. 
+Let's start with the technicalities: Git is a version control system that tracks source code modifications in software development, while GitHub is a collaboration and version control platform for storing and managing code. More on the differences [here](https://www.simplilearn.com/tutorials/git-tutorial/git-vs-github). GitHub is a version control tool used by programmers worldwide; other variations of this service are GitLab, Bitbucket, among others.
 
-This is by no means an exhaustive list of commands but what I use regularly. The steps below used to live on a text file on my local computer which I consulted from time to time. Hope it serves you well!
+For the budding data scientist, Github can also be beneficial in showcasing your projects (scripts and notebooks) and used to host your portfolio website.
+
+This is by no means an exhaustive list of commands but what I use regularly. The steps below lived on a text file on my local computer which I consulted from time to time. Hope it serves you well!
 
 ## Downloading Git for Windows
-To download Git, go to [https://git-scm.com/download/win](https://git-scm.com/download/win) and follow the prompts.
+To download Git, go to [https://git-scm.com/download/win](https://git-scm.com/download/win) and follow the prompts. Select the defaults except you know better. 
 
 ## Pushing from a Local Repository to GitHub
 

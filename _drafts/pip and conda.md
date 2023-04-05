@@ -18,8 +18,11 @@ So, I perfectly expect to write a followup to this once I understand how conda w
 - To verify your install, open command line and run the command `python` 
 []!(Add picture)
 - If you get an error like this, locate your downloaded executable file, left-click to run the file but this time, choose the *Modify* option and make sure to check off the option *Add to Path*
-- Close and re-open command line and run `python` again.
-
+- Close and re-open command line and run `python` again on command line.
+## Deleting Python from your Machine 
+- Go to Apps and find Python and Pip and uninstall
+- Also go to the location where it was installed and delete 
+- 
 ## Installing other packages/libraries
 With the python installation, you also by default have the *pip*. More on pip [here](add link). To install packages, simply go to command line and type `pip install pandas` or `pip install numpy` or `pip install notebook` in the case of Jupyter notebook.
 

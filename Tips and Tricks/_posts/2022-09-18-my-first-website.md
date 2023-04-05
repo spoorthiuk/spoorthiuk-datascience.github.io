@@ -32,6 +32,8 @@ First, you are likely going to use a static site generator. Jekyll or Hugo appea
 ## Step 0: Install Jekyll & Create GitHub Account
 - Find instructions to install Jekyll [here](https://jekyllrb.com/docs/installation/windows/). I used the first option: **Installation via RubyInstaller**. This step enables you to run your website on a local server. More on that later. I ran into a lot of dependency issues using the most recent version of Ruby+Devkit, so after doing a lot of research, I installed the *v2.7.6.*
 
+**Update: I recently bought a new laptop and had to re-install Ruby. I used the instructions above but could not find v2.7.6, so I ended up using this version (v3.1.3) as recommended by the program creators.**
+
 - [Create](https://github.com/) a GitHub account, or log in if you have one already.
 
 ## Step 1: Find a theme and fork the repository (repo)
@@ -88,6 +90,8 @@ To clone the repo, go to command line (*type CMD in Windows search bar*) and com
 
   This opens up a **local hosting site** where you can see changes as you make them to the various files. **Copy the server site address** generated to your web browser and a local version of your site will appear. Voila! Now when you make changes to any of the files in the folder (**website**), it would reflect on the website. <br>  
   Note that **if you make a change to the _config.yml file**, you would need to **stop** running the server **(Ctrl+C)** in VS Code terminal and re-run the command `bundle exec jekyll serve`.
+
+  If you get an error, run `bundle install` - that command should install a bunch of stuff to fix things. Once it's done, run `bundle exec jekyll serve` again. 
 
 
 ## Step 4: General website configuration and customization
