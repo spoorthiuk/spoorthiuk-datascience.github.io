@@ -27,15 +27,18 @@ The following steps below are what I use to create virtual environments using pi
 
 **Step 0: To create a virtual environment, type this in your Windows Command line**: <br>
 `pip3 install virtualenv` <br>
-Note that the command above will create the virtual environment with the Python version on your local computer. <br
 
-To *install multiple versions of Python* on your computer, you need *pyenv*.  I found a really helpful [blog](https://k0nze.dev/posts/install-pyenv-venv-vscode/) and [video](https://www.youtube.com/watch?v=HTx18uyyHw8) by k0nze that gives a clear step-by-step of the entire process. 
+Note that the command above will create the virtual environment with the Python version on your local computer. <br>
 
-1. Navigate to the project folder where you want the virtual environment to live using `cd` in the Command line.
-2. Create the virtual environment:
-`py -m venv env`
-*env* is the name of the new environment and can be named anything — for example `py -m venv deeplearning`.
-3. Activate the environment: `.\env\Scripts\activate`. Again, note that *env* is the name of the new environment. 
+To *install multiple versions of Python* on your computer, you need *pyenv*.  I found a really helpful [blog](https://k0nze.dev/posts/install-pyenv-venv-vscode/) and [video](https://www.youtube.com/watch?v=HTx18uyyHw8) by *k0nze* that gives a clear step-by-step of the entire process. 
+
+1. Navigate to the project folder where you want the virtual environment to live using `cd` in the Command line. For example, to create a folder called *New Folder*: <br>
+`cd C:\Users\ibobu\OneDrive\New Folder` 
+2. Create the virtual environment: <br>
+`py -m venv env` <br>
+Note that *env* is the name of the new environment and can be named anything — for example: `py -m venv deeplearning`.
+3. Activate the environment: <br> `.\env\Scripts\activate` <br> 
+Again, note that *env* is the name of the new environment. 
 4. Do some basic checks:
 - There should be a folder in your project folder called *env*
   - Go to the new environment: `cd env`
@@ -47,15 +50,16 @@ To *install multiple versions of Python* on your computer, you need *pyenv*.  I 
   To fix the error, I upgraded pip by running: `pip install --upgrade pip` and then `pip install tensorflow`. That seemed to fix things. Also, check the [TensorFlow official website](https://www.tensorflow.org/install/pip) to find what versions of Python are compatible with the latest release of TensorFlow. At this time, TensorFlow was not compatible with Python 3.11 (so I had to downgrade to 3.7). 
 6. To show all packages installed in your virtual environment:
 `pip list` or `pip freeze`
-7. Create a requirements file 
+7. Create a requirements file using: <br>
 `pip freeze > requirements.txt`
-8. To leave the virtual environment:
+8. To leave the virtual environment: <br>
 `deactivate`
 9. To use an existing virtual environment:
-  - Navigate to the folder where the virtual environment was created in Windows terminal. <br>
+  - Navigate to the folder where the virtual environment was created in your Windows terminal: <br>
   `cd path-to-directory` <br>
-  - Activate the environment using `.\env_name\Scripts\activate`
-10. You are now a virtual environment expert :) Well, at the very least, you are familiar with the basics as I am! 
+  - Activate the environment using:<br> 
+    `.\env_name\Scripts\activate`
+10. You are now a virtual environment expert :) Well, at the very least, you are as familiar with the basics as I am! 
 
 Good luck!
 
