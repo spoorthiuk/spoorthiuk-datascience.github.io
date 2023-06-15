@@ -68,7 +68,7 @@ If you are using Gitbash, the command below achieves the same purpose:
   The '.' means All. Alternatively, you can use: <br>
   `git add -A` <br>
   To add a single file, use: <br>
-  `git add <file-name>`
+  `git add <file-name>` <br>
   To add updates to a file that has already been committed, use: <br>
   `git add -u`
 
