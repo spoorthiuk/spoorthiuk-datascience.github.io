@@ -55,6 +55,12 @@ To download Git, go to the [__official git site__](https://git-scm.com/download/
 
 Usually, I get an error when I mistakenly add a README file at the beginning (when I created the repo). So my quick fix is deleting and re-creating the repository without the README file. 
 
+* Navigate to the folder and you should see a *.git* folder (looks transparent). You can also see this by using the command below in Command Line: <br>
+`dir /ah` <br>
+This shows all files, including hidden files and hidden directories.  <br>
+If you are using Gitbash, the command below achieves the same purpose:
+`ls -a`
+
 ## Adding, Committing and Pushing Files 
 
 * To add all files to your local git repository: <br>
@@ -63,6 +69,8 @@ Usually, I get an error when I mistakenly add a README file at the beginning (wh
   `git add -A` <br>
   To add a single file, use: <br>
   `git add <file-name>`
+  To add updates to a file that has already been committed, use: <br>
+  `git add -u`
 
 * Next, commit:
   `git commit -m "added image dimensions"` <br>
