@@ -2,148 +2,111 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Ibiene Obuoforibo"
-  label: "Reservoir/Development Engineer"
-  email: "ib.obuoforibo@outlook.com"
-  phone: "(403) 463-6054"
-  website: "https://ibienenwoko.com"
+  name: "Spoorthi Uday Karakaraddi"
+  label: "Data Scientist | Machine Learning Engineer | Software Engineer"
+  email: "spoorthiudayk@gmail.com"
+  phone: "925-584-5275"
+  website: "https://spoorthiuk.github.io"
   summary: >
-    Ibiene is an experienced oil and gas professional (9 years) with a solid technical background in reservoir and development engineering. 
-    Proven expertise in numerical simulation, well test analyses, reservoir surveillance, economic modeling, and field development planning. 
-    Meticulous, analytical individual and a life-long learner who enjoys keeping current on techniques and tools. 
-    Enthusiastic about data science and machine learning, with a keen interest in extracting insights from data to 
-    understand and improve well productivity. 
+     Kaggle 1xMaster, results-driven Software Engineer with a keen interest in Machine Learning, Generative AI, and Data Science.xperienced in full-stack development, test automation, and project leadership, particularly within Hewlett Packard Enterprise. Successfully engineered and deployed web applications, developed Python scripts for efficient data extraction, and implemented test automation solutions, significantly improving operational efficiency.
+     Eager to leverage expertise in software engineering and passion for emerging technologies to drive impactful projects in the realms of Machine Learning and Data Science.
     
   profiles:
     - network: "GitHub"
-      username: "ibiene-ds"
-      url: "https://github.com/ibiene-ds"
+      username: "spoorthiuk"
+      url: "https://github.com/spoorthiuk"
     - network: "LinkedIn"
-      username: "Ibiene Obuoforibo"
-      url: "www.linkedin.com/in/ibiene"
+      username: "Spoorthi Uday Karakaraddi"
+      url: "https://www.linkedin.com/in/spoorthiuk2703"
 work:
-  - company: "PETRONAS"
-    position: "Petroleum Engineer"
-    website: "https://petronascanada.com"
-    startDate: "2022-10-03"
-    endDate: ""
-
-  - company: "Sinopec Canada"
-    position: "Senior Reservoir Engineer"
-    website: "https://sinopeccanada.com"
-    startDate: "2020-06-09"
-    endDate: "2022-08-30"
+  - company: "Hewlett Packard Enterprise"
+    position: "Software Engineer"
+    website: "https://www.hpe.com/us/en/home.html"
+    startDate: "Aug 2022"
+    endDate: "Aug 2023"
     highlights:
-      - "Performed rate transient analysis in unconventional plays such as the Montney and Rock Creek to extract 
-      reservoir characteristics, investigate well interference and reliably forecast well performance."
-      - "Built parametric models to determine optimum well spacing and optimize completion design in the Montney, 
-      Duvernay and Rock Creek formations."
-      - "Created and optimized field development plans for several key conventional and unconventional plays 
-      (Ellerslie, Rock Creek, Montney and Duvernay) yielding over two hundred locations which 
-      have either been budgeted or added to the company’s long-term plan."
-      - "Ran various sensitivities on short-term and long-term field development plans for optimization purposes."
-      - "Provided technical input and recommendations in creating and maintaining the company’s capital budgets 
-      and long-term development plans."
-      - "Work closely with the Reserves team and third-party evaluators to optimize undeveloped bookings 
-      across different company assets and formations."
-      - "Represented the company at various subsurface meetings with the Montney Producers’ Group, presenting 
-      innovative workflows to peers."
-      - "Built over two hundred type curves across the Montney, Duvernay, Mannville, Cardium and Rock Creek formations, 
-      evaluated type well economics and project economics for development plans and deals."
-      - "Developed new and efficient workflows for evaluation and type curve generation that has eliminated ~95% of data preparation 
-      steps and vastly improved project timelines."
-      - "Created a one-stop database in Tableau to monitor competitor activity in plays such as the Montney and Duvernay, 
-      resulting in recommending modern and effective completion designs."
-      - "Prepared and presented seven divestment packages to executives - generated type curves and evaluated economics 
-      for upside locations - potentially reducing the company’s asset retirement obligations (ARO) by over 14 million dollars."
-      - "Managed over $100,000 in engineering software, championing new software and databases that improved engineering workflows."
-      - "Stewarded company’s non-operational budget of 15 million dollars by performing subsurface and economic evaluations on
-       Independent Operation Notices and recommending projects that added significantly to the company’s free cash flow."
-      - "Mentored other engineers both locally and internationally (Beijing) in general subsurface evaluation techniques."
+      - "Engineered and deployed a web application for monitoring the utilization of network test switches. Utilized React framework, HTML, CSS, and JavaScript, to craft a dashboard interfacing with the MongoDB database. This tool is used by the test engineers and managers daily to locate unused switches and to generate device health reports resulting in a minimum 60% increase in device utilization."
+      - "Developed Python scripts to initiate SSH and Telnet connections with thousands of switches, extracting vital information by parsing switch output using Regular Expressions."
+      - "Significantly reduced manual efforts and time through Python test automation scripts for UD scale testing which can be used in every release, boosting precision by 75% and reducing the test cycle time by 50%."
     
-  - company: "Sinopec Canada"
-    position: "Reservoir Engineer-in-Training"
-    website: "https://sinopeccanada.com"
-    startDate: "2014-06-09"
-    endDate: "2020-04-01"
+  - company: "Hewlett Packard Enterprise"
+    position: "Software Engineer Intern"
+    website: "https://www.hpe.com/us/en/home.html"
+    startDate: "Jan 2022"
+    endDate: "July 2022"
     highlights:
-      - "Created a workplan for evaluating all company assets for all company rights, ranked assets for development or 
-      divestiture, and presented the workplan and results to upper management."
-      - "Generated condensate-gas ratios, H2S maps and calculated gas and condensate in place volumes for 
-      company’s Montney asset."
-      - "Created a sour gas injection model in CMG IMEX to improve economics of sour oil restart and facilitate sour gas 
-      egress of company’s high value oil plays; the model also predicted required surface pressures to inform compressor 
-      design."
-      - "Built an economics sensitivities dashboard in Tableau that calculates the impact of changes in capital and/or 
-      volumes in real-time when fed a base set of economic runs."
-      - "Optimized company’s conventional waterflood assets in Alberta, presented to third party evaluators, 
-      resulting in an increase in reserves booking by ~700 thousand barrels."
-  
-  - company: "Sinopec Canada"
-    position: "Exploitation Engineering Intern"
-    website: "https://sinopeccanada.com"
-    startDate: "2012-09-01"
-    endDate: "2013-08-30"
-    highlights:
-      - "Performed decline curve analysis on 100+ wells in Pembina and Carrot Creek and analyzed the effects of various 
-      completions metrics on productivity."
-      - "Updated asset team on key industry activity including well licenses and pipeline approvals; monitored load fluid 
-      recovery of company’s new drills."
+      - "Initiated and successfully implemented the integration of bulk submission functionality using Python into the test scheduling platform, showcasing proactive leadership and resulting in a remarkable 95% increase in efficiency."
+      - "Conducted thorough testing on key network protocols (OSPF, PVLAN, ARP, RIP) for seamless infrastructure operation."
 
 education:
-  - institution: "University of Regina"
-    area: "Petroleum Systems Engineering"
-    studyType: "Bachelor"
-    startDate: "2009-05-01"
-    endDate: "2014-05-01"
+  - institution: "Arizona State University"
+    area: "Computer Science"
+    studyType: "Master of Science"
+    startDate: "2023-08-17"
+    endDate: "May 2025"
     gpa: "4.0"
+  - institution: "PES University"
+    area: "Electronics and Communication"
+    studyType: "Bachelor of Technology"
+    startDate: "2018-08-17"
+    endDate: "May 2022"
+    gpa: "3.67"
 
 skills:
-  - name: "Reservoir Modeling"
-    keywords:
-      - "CMG IMEX"
-      - "WINPROP"
-      - "Harmony"
-      - "CMG CMOST"
-  - name: "Well Test Analysis"
-    keywords:
-      - "RTA"
-      - "PTA"
-      - "DFIT"
-      - "Interference Testing"
-      - "SWPM"
-  - name: "Development Planning/Economic Modeling"
-    keywords:
-      - "Mosaic"
-      - "VALNAV"
-      - "Enersight"
-  - name: "Reserves"
-    keywords:
-      - "Decline Curve Analysis"
-      - "Harmony"
-      - "Material Balance"
-  - name: "Reservoir Management"
-    keywords:
-      - "Water flood"
-  - name: "Type Curve Generation"
-    keywords:
-      - "Competitor Intelligence"
-      - "Completion Design"
-  - name: "Data Science/Machine Learning"
+  - name: "Data Science"
     keywords:
       - "Python"
+      - "R"
       - "SQL"
-      - "Pandas"
-      - "sklearn"
-      - "Tensorflow"
-  - name: 'Data Analytics/Visualization'
+      - "Feature Engineering"
+      - "Exploratory Data Analysis (EDA)"
+      - "Teansorflow"
+      - "Scikit-learn"
+      - "Statistical Modeling"
+      - "PyTorch"
+      - "Spark"
+  - name: "Machine Learning"
     keywords:
+      - Supervised Learning
+      - Unsupervised Learning
+      - Ensemble Methods
+      - Dimensionality Reduction
+      - Clustering
+      - Regression Analysis
+      - Classification
+      - Model Evaluation
+      - Cross-Validation
+      - Hyperparameter Tuning
+  - name: "Data Analytics"
+    keywords:
+      - "Java Script"
+      - "D3"
       - "Tableau"
-      - "Spotfire"
       - "Power BI"
+  - name: "Automation"
+    keywords:
+      - "Python"
+      - "Selenium"
+      - "Rest API"
+  - name: "Full Stack Development"
+    keywords:
+      - "Java"
+      - "MongoDB"
+      - "Node.js"
+      - "Express.js"
+      - "JavaScript"
+      - "HTML"
+      - "CSS"
+      - "React"
+      - "Flask"
+      - "Angular"
 
 languages:
   - language: "English"
+    fluency: "Native speaker"
+  - language: "Hindi"
+    fluency: "Native speaker"
+  - language: "Kannada"
     fluency: "Native speaker"
     
 memberships:
