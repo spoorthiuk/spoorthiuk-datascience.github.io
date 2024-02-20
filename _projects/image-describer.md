@@ -5,6 +5,7 @@ image:
   path: /assets/img/blog/image-describer/main.png
   width: 400
   height: 300
+date: Jun 2023
 description: >
   The goal for the project is to build a convolutional neural network (CNN) that would extract features from an image, generate a caption describing the image and convert the generated text into audio using GTTS.
 tags: [Computer Vision, Python, Deep Learning, Neural Networks, CNN]
